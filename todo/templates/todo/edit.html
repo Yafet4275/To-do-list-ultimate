@@ -1,16 +1,15 @@
 {% extends 'todo/layout.html' %}
 {% block content %}
-
 <div class="container text-center">
     
     <form method="post">
         {% csrf_token %}
         <div class="mb-3">
-          
+          <label for="exampleInputEmail1" class="form-label">Task</label>
           {{ form }}
-          <div id="emailHelp" class="form-text">Add a new task here.</div>
+          <div id="emailHelp" class="form-text">Modify your task.</div>
         </div>
-        <button type="submit" class="btn btn-primary">Add</button>
+        <button type="submit" class="btn btn-primary">Edit</button>
       </form>
 
 </div>
