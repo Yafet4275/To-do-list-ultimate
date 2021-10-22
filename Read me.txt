@@ -1,3 +1,3 @@
-This is Hola user and coin app
-This project is a to do list made qith Django.
+This is a to do list app
+This project is a to do list made with Django.
 Super user is admin and password is 123456Aa
